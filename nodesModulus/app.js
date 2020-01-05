@@ -1,3 +1,3 @@
-const name = require('./utils');
+const add = require('./utils');
 
-console.log(name)
+console.log(add(5, 3))
