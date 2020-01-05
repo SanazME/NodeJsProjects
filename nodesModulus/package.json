@@ -1,0 +1,22 @@
+{
+  "name": "nodesmodulus",
+  "version": "1.0.0",
+  "description": "A node project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanazME/NodeJsProjects.git"
+  },
+  "author": "Sanaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanazME/NodeJsProjects/issues"
+  },
+  "homepage": "https://github.com/SanazME/NodeJsProjects#readme",
+  "dependencies": {
+    "validator": "^12.1.0"
+  }
+}

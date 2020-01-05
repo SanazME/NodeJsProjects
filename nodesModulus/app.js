@@ -1,3 +1,7 @@
-const add = require('./utils');
+const validator = require('validator');
 
-console.log(add(5, 3))
+console.log(validator.isEmail('asf$@sfsdcom'))
+console.log(validator.isURL('bbc.com', { require_valid_protocol: false }))
+
+
+

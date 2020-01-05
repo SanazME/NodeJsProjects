@@ -2,6 +2,6 @@ console.log('utils module is imported!')
 
 const name = "Bob"
 
-const add = (x, y) => x + y;
+const getNote = () => console.log('Your notes...')
 
-module.exports = add;
+
