@@ -1,7 +1,6 @@
-const validator = require('validator');
+const chalk = require('chalk');
 
-console.log(validator.isEmail('asf$@sfsdcom'))
-console.log(validator.isURL('bbc.com', { require_valid_protocol: false }))
-
+console.log(chalk.bgBlueBright('Success!'))
+console.log(chalk.bgBlueBright('Success!', chalk.bgGray(' '), chalk.underline.bgRedBright('Stop!')))
 
 
