@@ -1,4 +1,3 @@
-const fs = require('fs');
+const name = require('./utils');
 
-fs.writeFileSync('notes.txt', 'This is a new content!')
-fs.appendFileSync('notes.txt', 'This is an appended message')
+console.log(name)
